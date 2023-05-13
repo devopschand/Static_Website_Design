@@ -1,2 +1,2 @@
-FROM nginx docker.io/nginx:latest
+FROM docker.io/nginx:latest
 COPY . /usr/share/nginx/html
