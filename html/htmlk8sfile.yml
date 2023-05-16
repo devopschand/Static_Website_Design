@@ -13,7 +13,7 @@ spec:
      spec:
       containers:
         - name: htmlcontainer
-          image: devopschand/statichtml
+          image: devopschand/statichtml:${BUILD_NUMBER}
           ports:
           - containerPort: 80
 ---
